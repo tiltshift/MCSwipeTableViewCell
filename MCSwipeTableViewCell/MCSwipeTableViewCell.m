@@ -9,7 +9,7 @@
 #import "MCSwipeTableViewCell.h"
 
 static CGFloat const kMCStop1 = 0.20; // Percentage limit to trigger the first action
-static CGFloat const kMCStop2 = 0.75; // Percentage limit to trigger the second action
+static CGFloat const kMCStop2 = 0.40; // Percentage limit to trigger the second action
 static CGFloat const kMCBounceAmplitude = 20.0; // Maximum bounce amplitude when using the MCSwipeTableViewCellModeSwitch mode
 static NSTimeInterval const kMCBounceDuration1 = 0.2; // Duration of the first part of the bounce animation
 static NSTimeInterval const kMCBounceDuration2 = 0.1; // Duration of the second part of the bounce animation
